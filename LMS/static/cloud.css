@@ -1,0 +1,15 @@
+.card{
+  width: auto;
+  min-height: inherit;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 766px) {
+  .card {
+      width: auto;
+      min-height: 20rem;
+  }
+}

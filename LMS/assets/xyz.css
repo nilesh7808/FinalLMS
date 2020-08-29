@@ -1,0 +1,36 @@
+/* background of search button */
+#bckgr{
+  background: green;
+  color: white;
+}
+
+/* grid system of starting cards */
+.card-rows{
+  margin-top: 20px;
+}
+.card-img-top{
+  height: 175px;
+  width: 100%;
+}
+.card{
+  width: 14rem;
+  margin-top:20px;
+}
+
+@media only screen and (max-width: 766px) {
+  .card {
+      width: 20rem;
+  }
+}
+.body{
+  margin-bottom: 100000px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix {
+  overflow: auto;
+}

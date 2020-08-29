@@ -1,0 +1,31 @@
+.card{
+  width: auto;
+  min-height: inherit;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+p{
+  font-size: 20px;
+}
+.card-body{
+  display: block;
+  color: white;
+  background: #0A76E8  ;
+}
+#link{
+  color: white;
+  /* font-weight: 700; */
+  font-size: 20px;
+}
+@media only screen and (max-width: 766px) {
+.card {
+      width: auto;
+      min-height: 20rem;
+  }
+}
+.row{
+  background-color: #FFFDD7;
+}

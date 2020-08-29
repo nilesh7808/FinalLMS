@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+  </head>
+  <body>
+    <center>
+    <div class="container">
+      <div class="col">
+
+        <form action="login" method="post">
+          {% csrf_token %}
+          <label for="usr">Enter Username</label><br><br>
+          <input type="username" name="username" placeholder="Enter Registered Username" required><br><br>
+          <label for="psw">Enter Password</label><br><br>
+          <input type="password" name="password" placeholder="Enter Password" required><br><br>
+          <input class="btn"type="submit" name="submit" value="Login"><br>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- <div class="ggle">
+      <a class="google btn" href="https://mail.gogle.com/" >
+        <i class="fa fa-gmail" style="font-size:24px; color:white;">Login with google</i>
+      </a>
+    </div> -->
+    <div>
+  </center>
+      {% for message in messages %}
+      <h3>{{message}}</h3>
+      {% endfor %}
+    </div>
+
+  </body>
+</html>

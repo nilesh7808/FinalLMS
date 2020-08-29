@@ -1,0 +1,48 @@
+.nav-item #log{
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  left: 650px;
+  overflow: auto;
+  display: block;
+}
+.nav-item #sin{
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  left: 620px;
+  display: block;
+  overflow: auto;
+}
+.nav-item #usr{
+  position: relative;
+  color: white;
+  display: block;
+  font-size: 18px;
+  left: 620px;
+}
+.nav-item #logouts{
+  position: relative;
+  color: white;
+  display: block;
+  font-size: 18px;
+  left: 620px;
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar #sin {
+    position: relative;
+    width: auto;
+    right: 500px;
+
+  }
+}
+@media only screen and (max-width: 650px) {
+  .navbar #log {
+    position: relative;
+    width: auto;
+    right: 100px;
+  }
+}
